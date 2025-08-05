@@ -1,0 +1,3 @@
+Main-Class: PomodoroTimer
+Class-Path: lib/jlayer-1.0.1.jar
+

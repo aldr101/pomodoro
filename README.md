@@ -1,2 +1,57 @@
-# pomodoro
-A timer improving user task prioritisation with a technique that splits work into 25 minute intervals, separated by short 5 minute breaks.
+# Pomodoro Timer
+
+This project is a simple implementation of a Pomodoro timer, which is a time management technique developed by Francesco Cirillo. The technique uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks.
+
+## Overview
+
+The Pomodoro timer helps improve productivity by encouraging focused work sessions followed by breaks. This project includes a main class that implements the timer logic, utility functions for time formatting, and unit tests to ensure functionality.
+
+## Features
+
+- Start, pause, and reset the timer
+- Track work and break intervals
+- Utility functions for time formatting and calculations
+
+
+## Project Structure
+
+```
+pomodoro-timer/
+├── src/
+│   └── PomodoroTimer.java
+├── out/              # Compiled classes (created after compiling)
+└── README.md
+```
+
+## Getting Started
+
+To run the Pomodoro timer, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd pomodoro-timer
+   ```
+
+
+3. Compile the project using Java:
+   ```
+   javac -d out src/PomodoroTimer.java
+   ```
+
+4. Run the Pomodoro timer:
+   ```
+   java -cp out PomodoroTimer
+   ```
+
+## Notes
+
+This project does not require Maven or any build tool. Just use the Java commands above.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
